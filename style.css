@@ -1,8 +1,13 @@
+body {
+  background-color: rgb(98, 98, 98);
+}
+
 .game {
   width: 600px;
   height: 200px;
-  border: 1px solid black;
+  border: 3px solid black;
   margin: auto;
+  background-color: white;
 }
 
 #member {
@@ -28,7 +33,7 @@
   }
 
   50% {
-    top: 80px;
+    top: 40px;
   }
 
   80% {
@@ -48,4 +53,16 @@
 
   background-image: url("upload.png");
   background-size: 50px 50px;
+
+  animation: block 1s infinite linear;
+}
+
+@keyframes block {
+  0%{
+    left: 580px;
+  }
+
+  100% {
+    left: -50px;
+  }
 }

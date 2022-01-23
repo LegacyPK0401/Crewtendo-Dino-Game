@@ -6,14 +6,12 @@
 }
 
 #member {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-image: url("member.png");
-  background-size: 50px 50px;
+  background-size: 60px 60px;
   position: relative;
-  top: 150px;
-
-
+  top: 140px;
 }
 
 .jump {
@@ -39,4 +37,15 @@
   100% {
     top: 150px;
   }
+}
+
+#block {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 90px;
+  left: 550px;
+
+  background-image: url("upload.png");
+  background-size: 50px 50px;
 }

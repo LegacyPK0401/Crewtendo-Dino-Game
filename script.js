@@ -23,7 +23,7 @@ let isAlive = setInterval(function () {
     if (blockLeft < 50 && blockLeft > 0 && memberTop >= 140) {
 
       //collision
-      alert("Game Over!");
+      alert("Congrats! Crewtendo Finally Uploaded!");
 
       block.classList.add("reset");
 

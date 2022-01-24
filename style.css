@@ -25,11 +25,11 @@ body {
 
 @keyframes jump {
   0%{
-    top:150px;
+    top:140px;
   }
 
   30% {
-    top: 130px;
+    top: 110px;
   }
 
   50% {
@@ -37,10 +37,10 @@ body {
   }
 
   80% {
-    top: 130px;
+    top: 110px;
   }
   100% {
-    top: 150px;
+    top: 140px;
   }
 }
 
@@ -55,6 +55,10 @@ body {
   background-size: 50px 50px;
 
   animation: block 1s infinite linear;
+}
+
+.reset {
+  left: 555px;
 }
 
 @keyframes block {

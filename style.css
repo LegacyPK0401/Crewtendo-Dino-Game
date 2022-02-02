@@ -7,7 +7,8 @@ body {
   height: 200px;
   border: 3px solid black;
   margin: auto;
-  background-color: white;
+  background-image: url("backmario.png");
+  background-size: 600px 200px;
 }
 
 #member {

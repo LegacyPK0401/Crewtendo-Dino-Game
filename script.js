@@ -1,5 +1,6 @@
 const member = document.getElementById("member");
 const block = document.getElementById("block");
+var score=0
 
 function jump() {
   if (member.classList != "jump") {
@@ -9,6 +10,10 @@ function jump() {
   setTimeout(function() {
     member.classList.remove("jump");
   }, 300);
+}
+
+if (blockLeft = 50) {
+  score=score+1;
 }
 
 let isAlive = setInterval(function () {
@@ -34,6 +39,9 @@ let isAlive = setInterval(function () {
 
 }, 10);
 
+function draw() {
+ score = new component("30px", "Consolas", "black", 280, 40, "text");
+}
 document.addEventListener("keydown", function (event) {
   jump();
 });
